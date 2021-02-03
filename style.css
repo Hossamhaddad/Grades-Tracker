@@ -1,0 +1,81 @@
+header{
+    height: 100px;
+    background-color: black;
+    color: white;
+    margin-top: 0%;
+    
+}
+body{
+    background-image: url(img/school.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+
+table{
+    border: 2px solid white;
+    border-collapse: collapse;
+    color:white;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+tr{
+      border: 2px solid white;
+      width: 200px;
+      background-color:gray;
+      padding-top: 50px;
+}
+td{
+    border: 2px solid white;
+
+    width: 200px;
+}
+#mainDiv{
+    display: inline-block;
+   
+}
+#tableDiv{
+    float: right;
+    margin-top: 50px;
+    margin-right: 150px;
+    width: 600px;
+    background-color: turquoise;
+  
+}
+#formDiv{
+    float: left;
+    margin-top: 50px;
+   margin-left: 150px;
+   width: 300px;
+   background-color: turquoise;
+   
+}
+fieldset{
+    height: 250px;
+}
+form{
+    text-align: center;
+  
+}
+input{
+    margin-top: 30px;
+}
+#name{
+    color: white;
+    font-size: 20px;
+}
+#course{
+    color: white;
+    font-size: 20px;
+}
